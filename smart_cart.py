@@ -18,7 +18,7 @@ class SmartCartApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Smart Cart Scanner")
-        self.root.geometry("480x300")  # Set window size to match the 3.5-inch LCD (480x320)
+        self.root.geometry("480x290")  # Set window size to match the 3.5-inch LCD (480x320)
         self.root.resizable(False, False)  # Disable resizing to maintain layout
 
         self.cart = {}
